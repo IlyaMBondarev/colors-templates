@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="page">
+    <!-- @import "popups.html" -->
+    <!-- @import "header.html" -->
+    <div class="content">
+        <div class="breadcrumbs">
+            <div class="container">
+                <ul class="breadcrumbs__row">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Продукты</a></li>
+                    <li><a href="#">Краски</a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="slider">
+            <div class="slider__slides">
+                <article class="slide">
+                    <div class="slide__background">
+                        <img src="img/slider_img.jpg" alt="">
+                    </div>
+                    <div class="slide__main">
+                        <h2 class="slide__title">Краски</h2>
+                        <p class="slide__content">Идеально подходят для стен и других поверхностей.</p>
+                        <p class="slide__content">Найди свой идеальный цвет!</p>
+                    </div>
+                </article>
+                <article class="slide">
+                    <div class="slide__background">
+                        <img src="img/slider_img.jpg" alt="">
+                    </div>
+                    <div class="slide__main">
+                        <h2 class="slide__title">Краски</h2>
+                        <p class="slide__content">Идеально подходят для стен и других поверхностей.</p>
+                        <p class="slide__content">Найди свой идеальный цвет!</p>
+                    </div>
+                </article>
+                <article class="slide">
+                    <div class="slide__background">
+                        <img src="img/slider_img.jpg" alt="">
+                    </div>
+                    <div class="slide__main">
+                        <h2 class="slide__title">Краски</h2>
+                        <p class="slide__content">Идеально подходят для стен и других поверхностей.</p>
+                        <p class="slide__content">Найди свой идеальный цвет!</p>
+                    </div>
+                </article>
+                <article class="slide">
+                    <div class="slide__background">
+                        <img src="img/slider_img.jpg" alt="">
+                    </div>
+                    <div class="slide__main">
+                        <h2 class="slide__title">Краски</h2>
+                        <p class="slide__content">Идеально подходят для стен и других поверхностей.</p>
+                        <p class="slide__content">Найди свой идеальный цвет!</p>
+                    </div>
+                </article>
+                <article class="slide">
+                    <div class="slide__background">
+                        <img src="img/slider_img.jpg" alt="">
+                    </div>
+                    <div class="slide__main">
+                        <h2 class="slide__title">Краски</h2>
+                        <p class="slide__content">Идеально подходят для стен и других поверхностей.</p>
+                        <p class="slide__content">Найди свой идеальный цвет!</p>
+                    </div>
+                </article>
+                <article class="slide">
+                    <div class="slide__background">
+                        <img src="img/slider_img.jpg" alt="">
+                    </div>
+                    <div class="slide__main">
+                        <h2 class="slide__title">Краски</h2>
+                        <p class="slide__content">Идеально подходят для стен и других поверхностей.</p>
+                        <p class="slide__content">Найди свой идеальный цвет!</p>
+                    </div>
+                </article>
+            </div>
+            <div class="slider__nav_dots">
+                <button class="active"></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+            <div class="slider__nav_arrows">
+                <img src="img/icons/arrow.svg" alt="" class="slider__arrow slider__arrow_left">
+                <img src="img/icons/arrow.svg" alt="" class="slider__arrow slider__arrow_right">
+            </div>
+        </section>
+        <h2 class="mobile-title container">Краски</h2>
+        <div class="catalog container">
+            <aside class="filters">
+                <div class="filters__closer"><span></span></div>
+                <div class="filter filter__on" onclick="this.classList.toggle('filter__on')">
+                    <div class="filter__switcher"></div>
+                    <span class="filter__name">Новинки</span>
+                </div>
+                <div class="filter" onclick="this.classList.toggle('filter__on')">
+                    <div class="filter__switcher"></div>
+                    <span class="filter__name">Есть в наличии</span>
+                </div>
+                <div class="filter" onclick="this.classList.toggle('filter__on')">
+                    <div class="filter__switcher"></div>
+                    <span class="filter__name">Контрактные</span>
+                </div>
+                <div class="filter" onclick="this.classList.toggle('filter__on')">
+                    <div class="filter__switcher"></div>
+                    <span class="filter__name">Эксклюзивные</span>
+                </div>
+                <div class="filter" onclick="this.classList.toggle('filter__on')">
+                    <div class="filter__switcher"></div>
+                    <span class="filter__name">Распродажа</span>
+                </div>
+            </aside>
+            <div class="catalog__main">
+                <div class="catalog__top">
+                    <p class="catalog__count"><span>412</span> товаров</p>
+                    <p class="catalog__filters_opener">Фильтры</p>
+                    <div class="catalog__sort">
+                        <p><span>Сначала дорогие</span> <img src="img/icons/arrow_down.svg" alt=""></p>
+                        <div class="catalog__sort_list">
+                            <ul class="catalog__sort_menu">
+                                <li class="active">Сначала дорогие</li>
+                                <li>Сначала недорогие</li>
+                                <li>Сначала популярные</li>
+                                <li>Сначала новые</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <section class="products">
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/1.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>6000</span> ₽
+                            </p>
+                            <button class="product__add">
+                                <img src="img/icons/plus.svg" alt="">
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/2.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>4800</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/3.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>5290</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/4.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>2800</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/5.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>3400</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/6.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>6000</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/7.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>4800</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/8.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>5290</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/9.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>2800</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/10.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>3400</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/11.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>6000</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/12.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>4800</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/13.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>5290</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/14.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>2800</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="products__item product">
+                        <div class="product__image">
+                            <img src="img/products/15.jpg" alt="">
+                        </div>
+                        <p class="product__name">
+                            <a href="#">Краска Wallquest, Brownsone MS90102</a>
+                        </p>
+                        <div class="product__bottom">
+                            <p class="product__price">
+                                <span>3400</span> ₽
+                            </p>
+                            <button class="product__add"><img src="img/icons/plus.svg" alt=""></button>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- @import "footer.html" -->
+</main>
+<!-- @import "js.html" -->
+</body>
+</html>
